@@ -24,6 +24,16 @@ all developers, contributors, approvers will be paid bitcoin automatically via -
 
 so it will be awesome side income for programmers and a great learning/tutorial  links bookmarking service for programmers.
 
+Features Planned: 
+Bookmarking of tutorial links for programmers.
+
+Collaborative curation voting system.
+
+Site makes money by allowing job/project postings.
+
+All contributors,developers get rewarded transparently with bitcoin.
+
+site is completely decentralised and open source.
 Start contributing today - create an issue with your ideas/thoughts and start sending PR :) 
 we are very open to learning, new ideas.
 
