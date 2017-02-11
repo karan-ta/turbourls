@@ -43,7 +43,8 @@ cheers!
 
 1. Git clone https://github.com/karan-ta/turbourls.git
 
-2. Since yesod is already set up, you don't need to set it up any more. Just runyesod devel --port 3000 (or what ever port you want to use)
+2. Since yesod is already set up, you don't need to set it up any more. Just run yesod devel --port 3000 (or what ever port you want to use)
+3. To change data base connection details, go to config/settings.yml
 
 
 # To set up a fresh installation  on your computer follow these steps
