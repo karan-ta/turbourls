@@ -39,3 +39,38 @@ we are very open to learning, new ideas.
 
 cheers!
 
+# HOW TO SETUP:
+
+1. Git clone https://github.com/karan-ta/turbourls.git
+
+2. Since yesod is already set up, you don't need to set it up any more. Just runyesod devel --port 3000 (or what ever port you want to use)
+
+
+# To set up a fresh installation  on your computer follow these steps
+
+###### Install both yesod-bin and cabal-install. Both are still necessary
+$ stack install yesod-bin cabal-install
+######  Initialize your project
+$ stack exec yesod init turbourls yesod_mysql
+$ cd new-directory
+######  Create stack.yaml
+$ stack init
+######  Set up stack to use the global ghc
+$ stack config set system-ghc --global true
+######  Build your project to get al dependencies. Also rebuild yesod-bin with the current GHC, just to be safe
+$ stack build yesod-bin . 
+######  Now run yesod devel
+$ stack exec yesod devel or yesod devel
+######  Now add to git 
+$ git remote add origin https://github.com/user/repo.git
+
+### Credit to where i got this instructions from
+http://www.yesodweb.com/blog/2015/06/stack-support-yesod-devel
+
+
+
+
+ 
+
+ 
+
