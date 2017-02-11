@@ -63,7 +63,8 @@ $ stack build yesod-bin .
 $ stack exec yesod devel or yesod devel
 ######  Now add to git 
 $ git remote add origin https://github.com/user/repo.git
-
+###### If you are contributing to this project
+Make sure to git pull before you try to push
 ### Credit to where i got this instructions from
 http://www.yesodweb.com/blog/2015/06/stack-support-yesod-devel
 
