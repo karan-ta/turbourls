@@ -1,3 +1,7 @@
+update - version of this project with yst is at https://github.com/karan-ta/faburls
+for submitting links - i am looking to use rust application.
+if you are interested in faburls project - please create an issue in faburls repo.
+
 new project - work in progress mode.
 currently - nothing here to use.
 
